@@ -1,0 +1,31 @@
+form{
+    background-color:white;
+    height: 200px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+    display: block;
+    border: solid 1px yellow;
+    box-shadow: 0 0 40px 0 rgb(255, 0, 0);
+    text-align: center;
+}
+form:hover{
+    box-shadow: 0 0 60px 0 rgb(0, 250, 42);
+    transition: 0.4s;
+    transform: scale(1.02);
+    text-align: center;
+}
+label {
+top: 100px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:red;
+font-size: large;
+}
+#BPM{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style:italic;
+    background-color: rgb(255, 255, 255);
+    color:darkgreen;
+}

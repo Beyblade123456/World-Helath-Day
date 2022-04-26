@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Height and weight
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="height and weight.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="height and weight.JS"></script>
+</head>
+<body>
+    <center>
+        <div class="menu">
+            <div id="marker"></div>
+            <a href="index.html">
+                <i class="fa fa-home"></i>
+            </a>
+            <a href="age calcuator.html">
+                <i class="fa fa-calculator"></i>
+            </a>
+            <a href="heartrate.html">
+                <i class="fa fa-heartbeat"></i>
+            <a href="height and weight.html">
+                <i class="fa fa-balance-scale"></i>
+            </a>
+            <a href="bmi.html">
+                <i class="fa fa-male"></i>
+            </a>
+        </div>
+        </center>
+        <br>
+        <br>
+        <br>
+        <form action="">
+            <label for="">
+                Enter your height in cm
+            </label>
+            <br>
+            <br>
+            <input onchange="calheight()" type="text" name="" id="H" placeholder="Enter your height in cm">
+            <br>
+            <br>
+           <label for=""> You are &nbsp; <span id="height"></span>&nbsp; in meters</label>
+            <br>
+            <br>
+            <br>
+            <label for="">Enter your Weight in lbs</label>
+            <br>
+            <br>
+            <input onchange="calweight()" type="text" id="W" placeholder="Enter your Weight in lbs">
+            <br>
+            <br>
+            <label for=""> You are &nbsp;<span id="Weight"></span>&nbsp; in KG</label>
+        </form>
+</body>
+</html>
